@@ -1,0 +1,35 @@
+body {
+    color: rgb(99, 102, 106);
+    background-size: cover;
+    background-image: url(resources/wallpaperflare.com_wallpaper.jpg);
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    margin: 0px;
+    display: block;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+header {
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    color: rgb(255, 209, 63);
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(195, 0, 47);
+}
+
+.Library {
+    padding-left: 20px;
+    transform-origin: left;
+    user-select: none;
+}
+
+.logo {
+    width: 70px;
+    padding: 10px;
+    
+}
