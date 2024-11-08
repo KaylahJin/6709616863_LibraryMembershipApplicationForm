@@ -33,3 +33,9 @@ header {
     padding: 10px;
     
 }
+
+form {
+    font-size: medium;
+    margin: 20px;
+    padding: 20px;
+}
