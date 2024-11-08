@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library Membership Application Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Pridi&family=SUSE&display=swap" rel="stylesheet">
 </head>
 <body>
     <header> 
@@ -13,34 +16,42 @@
     </header>
 
     <form>
-        <label for="fnameth">ชื่อจริง : </label>
+        <div class="form">
+        <label for="fnameth">ชื่อจริง :</label>
         <input type="text" id="fnameth" name="fnameth"><br><br>
         
-        <label for="lnameth">นามสกุล : </label>
+        <label for="lnameth">นามสกุล :</label>
         <input type="text" id="lnameth" name="lnameth"><br><br>
-
-        <label for="fnameen">First Name : </label>
+        </div>
+        
+        <div class="form">
+        <label for="fnameen">First Name :</label>
         <input type="text" id="fnameen" name="fnameen"><br><br>
         
-        <label for="lnameen">Last Name : </label>
+        <label for="lnameen">Last Name :</label>
         <input type="text" id="lnameen" name="lnameen"><br><br>
-        
-        เพศ:
+        </div>
+
+        <div class="form">
+        <label for="gender">เพศ :
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">หญิง</label>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">ชาย</label>
         <input type="radio" id="female" name="gender" value="female">
-        <label for="female">อื่น ๆ</label>
-        <input type="text" id="female" name="gender" value=""><br><br>
-        
+        <label for="more">อื่น ๆ</label>
+        <input type="text" id="more" name="gender" value=""> </label><br><br>
+        </div>
+
+        <div class="form">
         <label for="id">รหัสนักศึกษา :</label>
         <input type="text" id="id" name="id"><br><br>
         
         <label for="id">คณะที่ศึกษา :</label>
         <input type="text" id="faculty" name="faculty"><br><br>
-        
-        <label for="email">ที่อยู่อีเมล:</label>
+        </div></div>
+
+        <label for="email">ที่อยู่อีเมล :</label>
         <input type="email" id="email" name="email"><br><br>
 
         <label for="birth">วันเดือนปีเกิด :</label>

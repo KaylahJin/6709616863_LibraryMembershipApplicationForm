@@ -2,7 +2,7 @@ body {
     color: rgb(99, 102, 106);
     background-size: cover;
     background-image: url(resources/wallpaperflare.com_wallpaper.jpg);
-    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-family: "SUSE", serif;
     margin: 0px;
     display: block;
     flex-direction: column;
@@ -35,7 +35,27 @@ header {
 }
 
 form {
+    font-family: "Pridi", serif;
     font-size: medium;
     margin: 20px;
     padding: 20px;
+
 }
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+input[type=text] , input[type=email] , input[type=date] , [type=submit] {
+    font-family: "Pridi", serif;
+    font-size: medium;
+    text-decoration: none;
+    border: 1px solid rgb(99, 102, 106);
+    border-radius: 4px;
+    width: 190px;
+    height: 30px;
+    padding: 0px 10px;
+    margin: 0px 20px;
+  }
