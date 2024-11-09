@@ -71,11 +71,11 @@ input[type=text] , input[type=email] , input[type=date] {
 
 .input-box label {
     position: absolute;
-
+    left: 0px;
 }
 
 .input-box input{
-    position: absolute;
+    position: relative;
     left: 220px;
 }
 
