@@ -52,6 +52,7 @@ input[type=text] , input[type=email] , input[type=date] {
     left: 290px;
     font-family: "Pridi", serif;
     font-size: medium;
+    color: rgb(99, 102, 106);
     border: 1px solid rgb(99, 102, 106);
     border-radius: 4px;
     width: 190px;
@@ -75,7 +76,7 @@ input[type=text] , input[type=email] , input[type=date] {
 }
 
 .input-box input{
-    position: relative;
+    position: absolute;
     left: 220px;
 }
 
