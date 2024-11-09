@@ -38,20 +38,20 @@ form {
     font-family: "Pridi", serif;
     font-size: medium;
     margin: 20px;
-    padding: 20px;
+    padding: 50px;
 
 }
 
 .form{
     display: flex;
     flex-wrap: wrap;
-
 }
 
-input[type=text] , input[type=email] , input[type=date] , [type=submit] {
+input[type=text] , input[type=email] , input[type=date] {
+    position: absolute;
+    left: 290px;
     font-family: "Pridi", serif;
     font-size: medium;
-    text-decoration: none;
     border: 1px solid rgb(99, 102, 106);
     border-radius: 4px;
     width: 190px;
@@ -59,3 +59,37 @@ input[type=text] , input[type=email] , input[type=date] , [type=submit] {
     padding: 0px 10px;
     margin: 0px 20px;
   }
+
+.input-box {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 40%;
+    height: 50px;
+    padding: 0 35px 0 5px;
+}
+
+.input-box label {
+    position: absolute;
+
+}
+
+.input-box input{
+    position: absolute;
+    left: 220px;
+}
+
+[type=submit]{
+    
+    font-family: "Pridi", serif;
+    font-size: large;
+    color: rgb(190, 77, 0);
+    border: 1px solid rgb(99, 102, 106);
+    border-radius: 4px;
+    background-color: rgb(255, 209, 63);
+    width: 80%;
+    height: 60px;
+    padding: 0px 10%;
+    margin: 0px 10%;
+}
+ 
